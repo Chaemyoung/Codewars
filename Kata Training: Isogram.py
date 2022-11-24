@@ -10,3 +10,5 @@ def is_isogram(string):
                 list.append(letter)
 
     return True
+
+###Got the idea from here https://www.geeksforgeeks.org/check-string-isogram-not/
