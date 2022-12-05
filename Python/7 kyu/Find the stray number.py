@@ -10,3 +10,8 @@ def stray(arr):
     return leastElement
   
   ###https://iq.opengenus.org/least-frequent-element-in-array/
+
+def stray(arr):
+    for x in arr:
+        if arr.count(x) == 1:
+            return x
