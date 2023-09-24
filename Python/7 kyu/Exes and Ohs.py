@@ -18,3 +18,6 @@ def xo(s):
         return True
     else:
         return False
+
+
+# return count_x == count_o
